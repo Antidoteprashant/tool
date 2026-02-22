@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Load Flow Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Elements managed individually for flexibility -->
+
+        <button id="download-btn" class="btn">Download Button</button>
+
+        <div id="ad-section" class="ad-box">
+            <p>Advertisement Section</p>
+            <small>Buy now!</small>
+        </div>
+
+        <!-- content initially hidden -->
+        <div id="upload-container" class="upload-box hidden">
+            <h2>Upload Box</h2>
+            <input type="file" id="file-upload">
+            <div id="error-message" class="hidden error"></div>
+
+            <div id="preview-container" class="hidden">
+                <img id="preview-image" src="" alt="Image Preview">
+            </div>
+
+            <div id="format-container" class="hidden" style="margin-top: 15px;">
+                <label for="format-select">Convert to:</label>
+                <select id="format-select" class="form-select">
+                    <option value="image/png">PNG</option>
+                    <option value="image/jpeg">JPG</option>
+                    <option value="image/webp">WEBP</option>
+                </select>
+            </div>
+
+            <button id="process-btn" class="btn hidden" style="margin-top: 15px; background-color: #28a745;">Process
+                Image</button>
+
+            <div id="processing-status" class="hidden" style="margin-top: 20px;">
+                <h3 style="color: #007bff;">Processing...</h3>
+                <div id="timer" style="font-size: 2rem; font-weight: bold;">10s</div>
+            </div>
+
+            <p>System is ready for user interaction</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
