@@ -4,49 +4,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Load Flow Demo</title>
+    <meta name="description"
+        content="Premium Image Format Converter - Convert your images to PNG, JPG, or WEBP easily and quickly.">
+    <title>Premium Image Converter</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="container">
+    <div class="background-animation"></div>
+    <div class="container fade-in">
         <!-- Elements managed individually for flexibility -->
 
-        <button id="download-btn" class="btn">Download Button</button>
+        <div class="header-text">
+            <h1>Image Converter</h1>
+            <p>Fast, secure, and beautiful</p>
+        </div>
+
+        <button id="download-btn" class="btn primary-btn">Download Image</button>
 
         <div id="ad-section" class="ad-box">
-            <p>Advertisement Section</p>
-            <small>Buy now!</small>
+            <div class="ad-content">
+                <span class="ad-badge">Sponsored</span>
+                <p>Support our platform</p>
+                <small>Check out our premium features!</small>
+            </div>
         </div>
 
         <!-- content initially hidden -->
         <div id="upload-container" class="upload-box hidden">
-            <h2>Upload Box</h2>
-            <input type="file" id="file-upload">
+            <div class="upload-area">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" class="upload-icon"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M12 16V8M12 8L9 11M12 8L15 11M3 16V17C3 18.1046 3.89543 19 5 19H19C20.1046 19 21 18.1046 21 17V16"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <h2>Choose an image</h2>
+                <p class="upload-subtitle">Click to browse your files</p>
+                <input type="file" id="file-upload" accept="image/*">
+            </div>
             <div id="error-message" class="hidden error"></div>
 
             <div id="preview-container" class="hidden">
-                <img id="preview-image" src="" alt="Image Preview">
+                <div class="image-wrapper">
+                    <img id="preview-image" src="" alt="Image Preview">
+                </div>
             </div>
 
-            <div id="format-container" class="hidden" style="margin-top: 15px;">
-                <label for="format-select">Convert to:</label>
-                <select id="format-select" class="form-select">
-                    <option value="image/png">PNG</option>
-                    <option value="image/jpeg">JPG</option>
-                    <option value="image/webp">WEBP</option>
-                </select>
+            <div id="format-container" class="hidden format-section">
+                <label for="format-select">Convert to</label>
+                <div class="select-wrapper">
+                    <select id="format-select" class="form-select">
+                        <option value="image/png">PNG Format</option>
+                        <option value="image/jpeg">JPG Format</option>
+                        <option value="image/webp">WEBP Format</option>
+                    </select>
+                </div>
             </div>
 
-            <button id="process-btn" class="btn hidden" style="margin-top: 15px; background-color: #28a745;">Process
-                Image</button>
+            <button id="process-btn" class="btn action-btn hidden">
+                <span>Process Image</span>
+            </button>
 
-            <div id="processing-status" class="hidden" style="margin-top: 20px;">
-                <h3 style="color: #007bff;">Processing...</h3>
-                <div id="timer" style="font-size: 2rem; font-weight: bold;">10s</div>
+            <div id="processing-status" class="hidden processing-section">
+                <div class="spinner"></div>
+                <h3 class="processing-text">Processing your image...</h3>
+                <div id="timer" class="timer-display">10s</div>
             </div>
-
-            <p>System is ready for user interaction</p>
         </div>
     </div>
 
