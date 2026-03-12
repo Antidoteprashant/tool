@@ -1,4 +1,4 @@
-# Premium Image Converter 🎨
+# Premium Image Converter <img src="https://raw.githubusercontent.com/google/material-design-icons/master/png/image/image_search/materialiconsoutlined/48dp/1x/outline_image_search_black_48dp.png" width="32" valign="middle">
 
 A fast, secure, and beautiful web-based tool to convert your images between popular formats.
 
@@ -19,7 +19,7 @@ A fast, secure, and beautiful web-based tool to convert your images between popu
 - **HTML5**: For structure and semantic markup.
 - **CSS3**: For custom styling, animations, and glassmorphic effects.
 - **JavaScript (ES6+)**: For client-side image processing and UI logic.
-- **Google Fonts**: Using the "Plus Jakarta Sans" typeface for a modern look.
+- **Google Fonts & Icons**: Using "Plus Jakarta Sans" for typography and Material Symbols for iconography.
 
 ## 🚀 How to Use
 
