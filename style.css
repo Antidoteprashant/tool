@@ -173,9 +173,10 @@ body     {
 }
 
 .upload-icon {
-    color: var(--accent);
+    font-size: 48px;
+    color: var(--primary-color);
     margin-bottom: 1rem;
-    transition: transform 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .upload-area:hover .upload-icon {
