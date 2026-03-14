@@ -31,11 +31,15 @@ A fast, secure, and beautiful web-based tool to convert your images between popu
     - Choose your desired output format (PNG, JPG, or WEBP) from the dropdown.
     - Click "Download Now" to save your converted image.
 
-##  Project Structure
+## 📁 Project Structure
 
-- `index.html`: The main entry point and UI structure.
-- `style.css`: Modern styling and animations.
-- `script.js`: Image conversion logic and UI interactions.
+```text
+tools.p/
+├── index.html   # Main application entry point and UI layout
+├── style.css    # Modern styling and glassmorphism effects
+├── script.js    # Image conversion logic and UI interactions
+└── README.md    # Project documentation
+```
 
 ---
 
