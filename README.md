@@ -4,7 +4,7 @@ A fast, secure, and beautiful web-based tool to convert your images between popu
 
 ![Premium Image Converter Mockup](https://via.placeholder.com/800x450?text=Premium+Image+Converter+UI)
 
-## ✨ Features
+##  Features
 
 - **Format Conversion**: Effortlessly convert images to **PNG**, **JPG**, and **WEBP**.
 - **Modern UI**: A premium user interface featuring:
@@ -21,7 +21,7 @@ A fast, secure, and beautiful web-based tool to convert your images between popu
 - **JavaScript (ES6+)**: For client-side image processing and UI logic.
 - **Google Fonts & Icons**: Using "Plus Jakarta Sans" for typography and Material Symbols for iconography.
 
-## 🚀 How to Use
+##  How to Use
 
 1.  **Open the App**: Simply open `index.html` in any modern web browser.
 2.  **Select Image**: Click on the upload area to choose an image from your computer.
@@ -31,7 +31,7 @@ A fast, secure, and beautiful web-based tool to convert your images between popu
     - Choose your desired output format (PNG, JPG, or WEBP) from the dropdown.
     - Click "Download Now" to save your converted image.
 
-## 📂 Project Structure
+##  Project Structure
 
 - `index.html`: The main entry point and UI structure.
 - `style.css`: Modern styling and animations.
