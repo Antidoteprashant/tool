@@ -31,7 +31,7 @@ A fast, secure, and beautiful web-based tool to convert your images between popu
     - Choose your desired output format (PNG, JPG, or WEBP) from the dropdown.
     - Click "Download Now" to save your converted image.
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 tools.p/
@@ -43,4 +43,4 @@ tools.p/
 
 ---
 
-*Made with ❤️ for a premium user experience.*
+*Made with for a premium user experience.*
