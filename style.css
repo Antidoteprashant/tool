@@ -182,7 +182,7 @@ body     {
     font-size: 48px;
     color: var(--primary-color);
     margin-bottom: 1rem;
-    transition: all 0.3s ease;
+    transition: all 0.4s ease;
 }
 
 .upload-area:hover .upload-icon {
