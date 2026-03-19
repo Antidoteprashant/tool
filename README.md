@@ -8,9 +8,9 @@ A fast, secure, and beautiful web-based tool to convert your images between popu
 
 - **Format Conversion**: Effortlessly convert images to **PNG**, **JPG**, and **WEBP**.
 - **Modern UI**: A premium user interface featuring:
-  - ✨ Glassmorphism design elements.
-  - 🎨 Smooth fade-in and background animations.
-  - 📱 Responsive layout for all devices.
+  -  Glassmorphism design elements.
+  - Smooth fade-in and background animations.
+  - Responsive layout for all devices.
 - **Privacy Focused**: All conversions happen directly in your browser using HTML5 Canvas. Your images are never uploaded to a server.
 - **Interactive Experience**: Real-time image preview and a "processing" simulation for a professional feel.
 
